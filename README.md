@@ -68,7 +68,9 @@ def show_results():
 
 # 创建 UI
 root = tk.Tk()
+
 root.title("Competition Simulation")
+
 root.geometry("400x300")
 
 # 创建“Start Competition”按钮
