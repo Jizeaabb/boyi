@@ -1,9 +1,11 @@
 # 基于博弈论的水下传感器网络短信号退避MAC协议所创建的简化理论模型
 # 导入相关库
 import tkinter as tk
+
 import random
 
 # 定义节点类
+
 class Node:
     def __init__(self, node_id):
         self.node_id = node_id
