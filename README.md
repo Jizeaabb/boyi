@@ -1,4 +1,5 @@
-#基于博弈论的水下传感器网络短信号退避MAC协议所创建的简化理论模型
+# 基于博弈论的水下传感器网络短信号退避MAC协议所创建的简化理论模型
+
 import tkinter as tk
 import random
 
