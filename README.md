@@ -28,6 +28,7 @@ class Node:
 
 # 模拟竞争过程
 def simulate_competition(nodes):
+
     competition_log = []
 
     # 初始化节点的发送概率
@@ -57,6 +58,7 @@ def simulate_competition(nodes):
 
 # 显示竞争结果的函数
 def show_results():
+
     # 创建节点列表
     nodes_list = [Node(i) for i in range(1, 6)]
     # 模拟竞争并将结果展示在文本框中
@@ -71,10 +73,12 @@ root.geometry("400x300")
 
 # 创建“Start Competition”按钮
 start_button = tk.Button(root, text="Start Competition", command=show_results)
+
 start_button.pack()
 
 # 创建用于显示结果的文本框
 result_text = tk.Text(root, height=20, width=40)
+
 result_text.pack()
 
 root.mainloop()
