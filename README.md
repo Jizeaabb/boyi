@@ -7,6 +7,7 @@ import random
 # 定义节点类
 
 class Node:
+
     def __init__(self, node_id):
         self.node_id = node_id
         self.send_probability = 0
