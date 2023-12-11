@@ -1,5 +1,5 @@
 # 基于博弈论的水下传感器网络短信号退避MAC协议所创建的简化理论模型
-
+# 导入相关库
 import tkinter as tk
 import random
 
@@ -35,7 +35,7 @@ def simulate_competition(nodes):
     sending_nodes = [node.node_id for node in nodes]
     competition_log.append(f"Competition Round 1 - All nodes compete to send")
 
-    # 模拟竞争的多轮过程
+# 模拟竞争的多轮过程
     for i in range(2, 5):
         competition_log.append(f"\nCompetition Round {i}")
         for node in nodes:
